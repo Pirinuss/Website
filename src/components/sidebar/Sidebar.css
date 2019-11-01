@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.menu-link {
+    margin: 0 auto;
+    font: 1em sans-serif;
+}
+
