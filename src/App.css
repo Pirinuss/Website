@@ -1,20 +1,22 @@
 .App {
-  float: left;
   position: absolute;
   top: 0px; /* Header Height */
   bottom: 0px; /* Footer Height */
   width: 100%;
   overflow: hidden;
+  background-image: url('./components/mainPanel/BackgroundPic.jpg');
 }
 
 .sidebar {
-  width: 30%;
+  background-color: #1f3644;
+  color: white;
+  float: left;
+  margin-left: 10%;
+  width: 20%;
   height: 100%;
-  margin: 5px;
 }
 
-.mainPanel {
-  width: 70%;
+.mainPanelContainer {
+  width: 80%;
   height: 100%;
-  margin: 5px;
 }

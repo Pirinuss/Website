@@ -3,21 +3,32 @@ import './Sidebar.css';
 import profilpic from './profilpic.jpg';
 
 class Sidebar extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {text: 'Willkommen!'};
+    }
+
+    changeInfoText(text) {
+        this.setState({text: text});
+    }
+
     render() {
         return (
             <div className="sidebar">
-                <div className="logo-container">
-                    <img className="logo" src={profilpic}></img>
+                <div className="header">
+                    <div className="deco-bar"></div>
                 </div>
                 <div className="info-container">
                     <h2>Marc Wendelborn</h2>  
+                    <p>{this.state.text}</p>
                 </div>
                 <div className="menu">
                 <div className="link-container">
-                        <a className="menu-link" href="/">Home</a>
+                        <a onMouseOver={() => {this.changeInfoText('Willkommen!')}} className="menu-link" href="/">Home</a>
                     </div>
                     <div className="link-container">
-                        <a className="menu-link" href="/">Über mich</a>
+                        <a onMouseOver={() => {this.changeInfoText('Wer ist dieser Marc eigentlich?')}} className="menu-link" href="/">Über mich</a>
                     </div>
                     <div className="link-container">
                         <a className="menu-link" href="/">Projekte</a>
@@ -26,6 +37,7 @@ class Sidebar extends React.Component {
                         <a className="menu-link" href="/">Kontakt</a>
                     </div>
                 </div>
+                <div className="deco-bar"></div>
                 <div className="footer">
                     <p>Copyright @2019</p>
                 </div>

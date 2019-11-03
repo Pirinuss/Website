@@ -2,22 +2,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.sidebar {
-    background-color: antiquewhite;
-    margin-top: 1px;
-    margin-left: 1px;
-}
-
-.logo-container {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.logo {
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.deco-bar {
+    background-color: red;
+    width: 100px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
 }
 
 .info-container {
@@ -30,9 +22,14 @@
     margin-top: 15px;
 }
 
+.menu {
+    margin-bottom: 100px;
+}
+
 .menu-link {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -44,5 +41,6 @@ a:hover {
     text-align: center;
     position: absolute;
     bottom: 0px;
+    font-size: 10px;
 }
 
