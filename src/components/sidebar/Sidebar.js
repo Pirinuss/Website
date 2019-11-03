@@ -10,15 +10,24 @@ class Sidebar extends React.Component {
                     <img className="logo" src={profilpic}></img>
                 </div>
                 <div className="info-container">
-                    <h1>Marc Wendelborn</h1>  
+                    <h2>Marc Wendelborn</h2>  
                 </div>
                 <div className="menu">
+                <div className="link-container">
+                        <a className="menu-link" href="/">Home</a>
+                    </div>
                     <div className="link-container">
                         <a className="menu-link" href="/">Über mich</a>
                     </div>
                     <div className="link-container">
                         <a className="menu-link" href="/">Projekte</a>
                     </div>
+                    <div className="link-container">
+                        <a className="menu-link" href="/">Kontakt</a>
+                    </div>
+                </div>
+                <div className="footer">
+                    <p>Copyright @2019</p>
                 </div>
             </div>    
         );

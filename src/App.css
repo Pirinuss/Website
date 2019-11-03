@@ -1,9 +1,10 @@
 .App {
   float: left;
   position: absolute;
-  top: 10px; /* Header Height */
-  bottom: 10px; /* Footer Height */
+  top: 0px; /* Header Height */
+  bottom: 0px; /* Footer Height */
   width: 100%;
+  overflow: hidden;
 }
 
 .sidebar {
