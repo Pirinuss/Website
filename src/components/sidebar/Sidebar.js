@@ -20,8 +20,7 @@ class Sidebar extends React.Component {
                     <div className="deco-bar"></div>
                 </div>
                 <div className="info-container">
-                    <h2>Marc Wendelborn</h2>  
-                    <p>{this.state.text}</p>
+                    <h2 className="name-label">Marc Wendelborn</h2>  
                 </div>
                 <div className="menu">
                 <div className="link-container">
@@ -37,7 +36,7 @@ class Sidebar extends React.Component {
                         <a className="menu-link" href="/">Kontakt</a>
                     </div>
                 </div>
-                <div className="deco-bar"></div>
+                <div className="deco-bar bottom"></div>
                 <div className="footer">
                     <p>Copyright @2019</p>
                 </div>

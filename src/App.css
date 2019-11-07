@@ -4,7 +4,9 @@
   bottom: 0px; /* Footer Height */
   width: 100%;
   overflow: hidden;
-  background-image: url('./components/mainPanel/BackgroundPic.jpg');
+  background-image: url('./components/mainPanel/MarcEdited.jpg');
+  background-size:100% 100%;
+  background-position: center; 
 }
 
 .sidebar {
