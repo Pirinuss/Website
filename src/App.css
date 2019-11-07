@@ -1,22 +1,24 @@
 .App {
-  text-align: center;
+  position: absolute;
+  top: 0px; /* Header Height */
+  bottom: 0px; /* Footer Height */
+  width: 100%;
+  overflow: hidden;
+  background-image: url('./components/mainPanel/MarcEdited.jpg');
+  background-size:100% 100%;
+  background-position: center; 
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sidebar {
+  background-color: #1f3644;
   color: white;
+  float: left;
+  margin-left: 10%;
+  width: 20%;
+  height: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+.mainPanelContainer {
+  width: 80%;
+  height: 100%;
 }
