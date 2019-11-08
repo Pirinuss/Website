@@ -1,9 +1,21 @@
 import React from 'react';
+import ProjectItem from './ProjectItem.js';
+import './Projects.css'
 
-export class Projects extends React.Component {
+class Projects extends React.Component {
     render() {
         return (
-           <h1>PROJECTS</h1>
+            <div className="projects">
+                <div className="header-container">
+                    <h2>PROJEKTE</h2>
+                </div>
+                <div className="projects-container">
+                    <ProjectItem title="Website"></ProjectItem>
+                    <ProjectItem title="Password Manager"></ProjectItem>
+                    <ProjectItem title="Workload Generator"></ProjectItem>
+                    <ProjectItem title="WEBSITE"></ProjectItem>
+                </div>
+            </div>
         );
     }
 }
