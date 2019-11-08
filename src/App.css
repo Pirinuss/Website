@@ -1,4 +1,5 @@
 .App {
+  float: left;
   position: absolute;
   top: 0px; /* Header Height */
   bottom: 0px; /* Footer Height */
@@ -7,15 +8,6 @@
   background-image: url('./components/mainPanel/MarcEdited.jpg');
   background-size:100% 100%;
   background-position: center; 
-}
-
-.sidebar {
-  background-color: #1f3644;
-  color: white;
-  float: left;
-  margin-left: 10%;
-  width: 20%;
-  height: 100%;
 }
 
 .mainPanelContainer {

@@ -1,6 +1,9 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 import './Sidebar.css';
-import profilpic from './profilpic.jpg';
 
 class Sidebar extends React.Component {
 
@@ -23,17 +26,17 @@ class Sidebar extends React.Component {
                     <h2 className="name-label">Marc Wendelborn</h2>  
                 </div>
                 <div className="menu">
-                <div className="link-container">
-                        <a onMouseOver={() => {this.changeInfoText('Willkommen!')}} className="menu-link" href="/">Home</a>
+                    <div className="link-container">
+                        <Link to='/' className="menu-link" onMouseOver={() => {this.changeInfoText('Willkommen!')}}>Home</Link>
                     </div>
                     <div className="link-container">
-                        <a onMouseOver={() => {this.changeInfoText('Wer ist dieser Marc eigentlich?')}} className="menu-link" href="/">Über mich</a>
+                        <Link to='/about' className="menu-link">Über mich</Link>
+                    </div>
+                    <div className="link-container"> 
+                        <Link to='/projects' className="menu-link">Projekte</Link>
                     </div>
                     <div className="link-container">
-                        <a className="menu-link" href="/">Projekte</a>
-                    </div>
-                    <div className="link-container">
-                        <a className="menu-link" href="/">Kontakt</a>
+                        <Link to='/contact' className="menu-link">Kontakt</Link>
                     </div>
                 </div>
                 <div className="deco-bar bottom"></div>

@@ -1,0 +1,16 @@
+.contact {
+    float: left;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.contact-container {
+    display: inline-block;
+    background-color: #1f3644;
+    width: 800px;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 20px;
+    color: white;
+}
