@@ -6,7 +6,7 @@
 }
 
 .header-container {
-    margin-top: 2%;
+    margin-top: 8%;
     margin-left: 2%;
     color: black;
     font-size: 25px;
@@ -24,10 +24,7 @@
 }
 
 .projectItem-container {
-    float: left;
-    height: 44%;
-    width: 44%;
-    margin: 2%;
+    height: 500px;
     background-color: #1f3644;
     color: white;
     border: 0px white solid;
@@ -35,7 +32,7 @@
 }
 
 .projectItem-header-container {
-    height: 20%;
+    height: 15%;
     width: 100%;
     overflow: hidden;
 }
@@ -53,4 +50,25 @@
     width: 30%;
     height: 5px;
     border-radius: 25px;
+}
+
+.projectItem-body-container {
+    height: 75%;
+    width: 100%;
+    float: left;
+}
+
+.projectItem-text-content {
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 3%;
+}
+
+.projectItem-image-content {
+    float: left;
+    width: 43%;
+    height: 100%;
+    margin-right: 5%;
 }
