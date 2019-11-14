@@ -2,7 +2,6 @@
     float: left;
     width: 70%;
     height: 100%;
-    text-align: center;
 }
 
 .header-container {
@@ -18,9 +17,9 @@
     width: 90%;
     height: 80%;
     border-radius: 20px;
-    color: white;
     position: relative;
     overflow: hidden;
+    margin-left: 8%;
 }
 
 .projectItem-container {
@@ -35,6 +34,7 @@
     height: 15%;
     width: 100%;
     overflow: hidden;
+    color: #a64545;
 }
 
 .projectItem-header {
@@ -46,6 +46,7 @@
     height: 70%;
     width: 100%;
     float: left;
+    color: #a64545;
 }
 
 .projectItem-text-content {
@@ -68,8 +69,8 @@
 }
 
 .icon-text {
-    margin: 10px;
     margin-top: 50px;
+    font-size: 20px;
     float: left;
 }
 
@@ -86,10 +87,34 @@
     width: 43%;
     height: 100%;
     margin-right: 5%;
-    text-align: center;
+}
+
+.projectItem-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.website-image {
+    margin-top: 40px;
 }
 
 .projectItem-footer-container {
     width: 100%;
     height: 15%;
+}
+
+.welcome-container {
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-welcome-text {
+    margin-top: 20%;
+    text-align: center;
+    color: #a64545;
+    font-size: 25px;
 }
