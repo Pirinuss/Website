@@ -8,9 +8,16 @@
 .contact-container {
     display: inline-block;
     background-color: #1f3644;
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     margin-top: 150px;
     border-radius: 20px;
     color: white;
+}
+
+.contact-images {
+    background-color: #1f3644;
+    height: 90px;
+    width: 90px;
+    margin: 30px;
 }
