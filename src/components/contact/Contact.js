@@ -17,7 +17,7 @@ class Contact extends React.Component {
             <div className="contact">
                 <BouncyDiv>
                     <div className="contact-container">
-                        <h1 className="test">Kontakt</h1>
+                        <h1 className="test"></h1>
                         <div className="contact-image-container">
                             <img className="contact-images" src={githubImage} alt="Das Bild kann nicht dargestellt werden" />
                             <img className="contact-images" src={facebookImage} alt="Das Bild kann nicht dargestellt werden" />

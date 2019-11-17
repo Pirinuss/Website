@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css'
-import githubIcon from './githubIcon.png'
 
 class ProjectItem extends React.Component {
     
@@ -12,17 +11,13 @@ class ProjectItem extends React.Component {
         return (
             <div className="projectItem-container">
                 <div className="projectItem-header-container">
+                    <div className="deco-bar-welcome" />
                     <h1 className="projectItem-header">{this.props.title}</h1>
+                    <div className="deco-bar-welcome" />
                 </div>
                 <div className="projectItem-body-container">
                     <div className="projectItem-text-content">
-                        <div className="content-top-container">
-                            <p>{this.props.content}</p>
-                        </div>
-                        <div className="content-bottom-container">
-                            <p className="icon-text">Zum Projekt:</p>
-                            <img className='github-icon' src={githubIcon} alt="Icon kann nicht angezeigt werden"/>
-                        </div>
+                        <p>{this.props.content}</p>
                     </div>
                     <div className="projectItem-image-content">
                         <img className={imageClassName} alt="Bild kann nicht angezeigt werden" src={this.props.image} />

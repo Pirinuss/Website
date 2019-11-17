@@ -23,8 +23,6 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="projects">
-                <div className="header-container">
-                </div>
                 <div className="projects-container">
                     <div>
                     <InfiniteCarousel

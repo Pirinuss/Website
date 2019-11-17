@@ -1,0 +1,49 @@
+.about {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.about-container {
+    width: 86%;
+    height: 75%;
+    margin: 7%;
+    border-radius: 20px;
+}
+
+.box {
+    height: 43%;
+    width: 43%;
+    border-radius: 20px;
+    float: left;
+    color: white;
+    display: table;
+    text-align: center;
+    margin: 10px;
+}
+
+.box:hover {
+    color: #2f97d8;
+}
+
+.cell-header {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sport-container {
+    background-image: url('./handball.jpeg');
+    background-size: 100%;
+}
+
+.other-container {
+    background-image: url('./background.jpg');
+    background-size: 100%;
+}
+
+.it-skills-container {
+    background-image: url('./WebsiteImage.PNG');
+    background-size: 100%;
+}
