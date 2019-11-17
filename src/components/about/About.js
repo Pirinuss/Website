@@ -10,22 +10,23 @@ export class About extends React.Component {
                 <div className="about-container">
                     <Link to='/about/sport'>
                         <div className="box sport-container">
-                            <h1 className="cell-header">SPORT</h1>
+                            <div className="cell-header-container">
+                                <h1 className="cell-header">Sport</h1>
+                            </div>
                         </div>
                     </Link>    
                     <Link to='/about/itskills'>
                         <div className="box it-skills-container">
-                            <h1 className="cell-header">IT-SKILLS</h1>
+                        <div className="cell-header-container">
+                                <h1 className="cell-header">IT-Skills</h1>
+                            </div>
                         </div>
                     </Link>
                     <Link to='/about/other'>
                         <div className="box other-container">
-                            <h1 className="cell-header">PLACEHOLDER</h1>
-                        </div>
-                    </Link>
-                    <Link to='/about/other'>
-                        <div className="box other-container">
-                            <h1 className="cell-header">SONSTIGES</h1>
+                        <div className="cell-header-container">
+                                <h1 className="cell-header">Sonstiges</h1>
+                            </div>
                         </div>
                     </Link>
                 </div>
