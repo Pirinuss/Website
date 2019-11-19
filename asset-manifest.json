@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.c8afe7f9.chunk.css",
+    "main.css": "/Website/static/css/main.dd5ca3e7.chunk.css",
     "main.js": "/Website/static/js/main.527a0234.chunk.js",
     "main.js.map": "/Website/static/js/main.527a0234.chunk.js.map",
     "runtime-main.js": "/Website/static/js/runtime-main.0a00061a.js",
@@ -8,9 +8,9 @@
     "static/js/2.0dccea3c.chunk.js": "/Website/static/js/2.0dccea3c.chunk.js",
     "static/js/2.0dccea3c.chunk.js.map": "/Website/static/js/2.0dccea3c.chunk.js.map",
     "index.html": "/Website/index.html",
-    "precache-manifest.82489b523351f18d7f571bdb0d5f4fe7.js": "/Website/precache-manifest.82489b523351f18d7f571bdb0d5f4fe7.js",
+    "precache-manifest.94c2d8b4c4bbb57c1301ee5b0971dd82.js": "/Website/precache-manifest.94c2d8b4c4bbb57c1301ee5b0971dd82.js",
     "service-worker.js": "/Website/service-worker.js",
-    "static/css/main.c8afe7f9.chunk.css.map": "/Website/static/css/main.c8afe7f9.chunk.css.map",
+    "static/css/main.dd5ca3e7.chunk.css.map": "/Website/static/css/main.dd5ca3e7.chunk.css.map",
     "static/media/App.css": "/Website/static/media/MarcEdited.1d74448d.jpg",
     "static/media/PasswortManagerImage.png": "/Website/static/media/PasswortManagerImage.21dc50e4.png",
     "static/media/About.css": "/Website/static/media/handball.e6479be9.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a00061a.js",
     "static/js/2.0dccea3c.chunk.js",
-    "static/css/main.c8afe7f9.chunk.css",
+    "static/css/main.dd5ca3e7.chunk.css",
     "static/js/main.527a0234.chunk.js"
   ]
 }
