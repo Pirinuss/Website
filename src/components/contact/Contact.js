@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import githubImage from '../projects/githubIcon.png';
+import mailIcon from './mailIcon.png';
 import facebookImage from './facebookIcon.png';
 import linkedInIcon from './linkedInIcon.png';
 import styled, { keyframes } from 'styled-components';
@@ -17,11 +17,17 @@ class Contact extends React.Component {
             <div className="contact">
                 <BouncyDiv>
                     <div className="contact-container">
-                        <h1 className="test"></h1>
+                        <h1 className="test">Hier bin ich zu erreichen:</h1>
                         <div className="contact-image-container">
-                            <img className="contact-images" src={githubImage} alt="Das Bild kann nicht dargestellt werden" />
-                            <img className="contact-images" src={facebookImage} alt="Das Bild kann nicht dargestellt werden" />
-                            <img className="contact-images" src={linkedInIcon} alt="Das Bild kann nicht dargestellt werden" />
+                            <a href="mailto:marcwendelborn@web.de" target="_blank" rel="noopener noreferrer">
+                                <img className="contact-images mail" src={mailIcon} alt="Das Bild kann nicht dargestellt werden" />
+                            </a>
+                            <a href="https://www.facebook.com/marc.wendelborn.1?ref=bookmarks" target="_blank" rel="noopener noreferrer">    
+                                <img className="contact-images" src={facebookImage} alt="Das Bild kann nicht dargestellt werden" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/marc-wendelborn-a36088191/" target="_blank" rel="noopener noreferrer">    
+                                <img className="contact-images" src={linkedInIcon} alt="Das Bild kann nicht dargestellt werden" />
+                            </a>    
                         </div>    
                     </div>
                 </BouncyDiv>

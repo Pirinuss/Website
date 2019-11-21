@@ -38,8 +38,10 @@ class Sidebar extends React.Component {
                         <Link to='/contact' className="menu-link">Kontakt</Link>
                     </div>
                 </div>
-                <div className="deco-bar bottom"></div>
                 <div className="footer">
+                    <div className="deco-bar bottom"></div>
+                </div>
+                <div className="copyright">
                     <p>Copyright @2019</p>
                 </div>
             </div>    

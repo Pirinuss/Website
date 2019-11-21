@@ -1,6 +1,6 @@
 .about {
     float: left;
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 
@@ -31,7 +31,8 @@
 
 .cell-header {
     display: table-cell;
-    font-size: 40px;
+    font-size: 30px;
+    padding-top: 5%;
 }
 
 .cell-header-container {

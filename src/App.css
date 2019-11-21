@@ -5,7 +5,17 @@
   bottom: 0px; /* Footer Height */
   width: 100%;
   overflow: hidden;
-  background-image: url('./components/mainPanel/MarcEdited.jpg');
-  background-size:100% 100%;
-  background-position: center; 
+  background-image: url('./components/mainPanel/Marc.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.mainPanel {
+  float: left;
+  width: 75%;
+  height: 100%;
+  
+  background-image: url('./components/mainPanel/Marc.jpg');
+  background-size:cover;
+  background-position: center;
 }

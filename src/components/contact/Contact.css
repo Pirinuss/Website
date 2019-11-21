@@ -1,6 +1,6 @@
 .contact {
     float: left;
-    width: 70%;
+    width: 100%;
     height: 100%;
     text-align: center;
 }
@@ -10,7 +10,7 @@
     background-color: #1f3644;
     width: 600px;
     height: 300px;
-    margin-top: 150px;
+    margin-top: 15%;
     border-radius: 20px;
     color: white;
     text-align: center;

@@ -9,9 +9,9 @@ export class About extends React.Component {
            <div className="about">
                 <div className="about-container">
                     <Link to='/about/sport'>
-                        <div className="box sport-container">
+                        <div className="box other-container">
                             <div className="cell-header-container">
-                                <h1 className="cell-header">Sport</h1>
+                                <h1 className="cell-header">Fakten</h1>
                             </div>
                         </div>
                     </Link>    
@@ -23,9 +23,9 @@ export class About extends React.Component {
                         </div>
                     </Link>
                     <Link to='/about/other'>
-                        <div className="box other-container">
+                        <div className="box sport-container">
                         <div className="cell-header-container">
-                                <h1 className="cell-header">Sonstiges</h1>
+                                <h1 className="cell-header">Hobbies</h1>
                             </div>
                         </div>
                     </Link>

@@ -16,19 +16,20 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Sidebar ></Sidebar>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>  
-        <MainPanel className="mainPanelContainer"></MainPanel>
+        <Sidebar className="sideBar"></Sidebar>
+        <div className="mainPanel">
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch> 
+        </div> 
       </div>
     </Router>
   );

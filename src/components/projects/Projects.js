@@ -24,7 +24,7 @@ class Projects extends React.Component {
         return (
             <div className="projects">
                 <div className="projects-container">
-                    <div>
+                    <div className="test">
                     <InfiniteCarousel
                         breakpoints={[
                             {
