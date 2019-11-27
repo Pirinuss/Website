@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
-import MainPanel from './components/mainPanel/MainPanel';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import ITSkills from './components/about/it-skills/ITSkills';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +19,9 @@ function App() {
         <Sidebar className="sideBar"></Sidebar>
         <div className="mainPanel">
           <Switch>
+            <Route path="/about/itskills">
+              <ITSkills />
+            </Route>
             <Route path="/about">
               <About />
             </Route>

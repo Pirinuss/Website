@@ -1,38 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
+import './it-skills/ITSkills.css'
 import {
     Link
   } from "react-router-dom";
-export class About extends React.Component {
-    render() {
-        return (
-           <div className="about">
+import ITSkills from './it-skills/ITSkills';
+import { CSSTransition } from 'react-transition-group';
+
+export function About() {
+
+    const [inProp, setInProp] = useState(false);
+
+    return (
+        <div className="container"> 
+            <div className="about">
                 <div className="about-container">
-                    <Link to='/about/sport'>
+                    <Link to='/about/facts'>
                         <div className="box other-container">
                             <div className="cell-header-container">
                                 <h1 className="cell-header">Fakten</h1>
                             </div>
                         </div>
                     </Link>    
-                    <Link to='/about/itskills'>
-                        <div className="box it-skills-container">
+                    <div className="box it-skills-container" onClick={() => setInProp(true)}>
                         <div className="cell-header-container">
-                                <h1 className="cell-header">IT-Skills</h1>
-                            </div>
+                            <h1 className="cell-header">IT-Skills</h1>
                         </div>
-                    </Link>
-                    <Link to='/about/other'>
-                        <div className="box sport-container">
+                    </div>
+                    <div className="box sport-container" onClick={() => setInProp(false)}>
                         <div className="cell-header-container">
-                                <h1 className="cell-header">Hobbies</h1>
-                            </div>
+                            <h1 className="cell-header">Hobbies</h1>
                         </div>
-                    </Link>
+                    </div>
                 </div>
-           </div>
+            </div>
+            <CSSTransition in={inProp} timeout={999999999} classNames="itSkills2">
+                <div className="transition-container">
+                   <ITSkills />
+                </div>
+            </CSSTransition>
+        </div>
         );
-    }
 }
 
 export default About;
