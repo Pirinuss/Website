@@ -71,33 +71,3 @@
     background-size: 100%;
 }
 
-.transition-container {
-    display: none;
-}
-
-.itSkills2-enter {
-    display: block;
-}
-
-.itSkills2-enter-active{
-    animation-name: 'show';
-}
-
-.itSkills2-exit {
-    display: block;
-    opacity: 1;
-}
-
-.itSkills2-exit-active {
-    opacity: 0;
-}
-
-@keyframes show {
-    from {height: 0%;}
-    to {height: 100%;}
-  }
-
-@keyframes hide {
-    from {height: 100%;}
-    to {height: 0%;}
-  }

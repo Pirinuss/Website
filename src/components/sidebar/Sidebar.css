@@ -46,9 +46,12 @@
     font-size: 2.5vh;
 }
 
-a:hover {
+a {
+    outline: 0;
+}
+
+.selected {
     color: cadetblue;
-    text-decoration: cadetblue;
 }
 
 .footer {

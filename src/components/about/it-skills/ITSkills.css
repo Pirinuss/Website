@@ -8,8 +8,8 @@
 
 .itskills-container {
     background-color: #1f3644;
-    width: 70%;
-    height: 100%;
+    width: 100vh;
+    height: 70vh;
     animation-name: show;
     animation-duration: 1s;
     margin-left: 10%;

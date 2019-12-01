@@ -43,7 +43,7 @@ class ITSkills extends React.Component {
                         </div>
                     </div>
                     <div id="footer" className="itskills-footer">
-                        <img className="backIcon" src={collapseIcon} alt="Bald kann nicht dargestellt werden" onClick={this.hide}/>
+                        <img className="backIcon" src={collapseIcon} alt="Bald kann nicht dargestellt werden" onClick={() => this.props.closeMethod(false)} />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {
-    Link
+    Link,
+    NavLink
   } from "react-router-dom";
 import './Sidebar.css';
 
@@ -29,13 +30,13 @@ class Sidebar extends React.Component {
                         <Link to='/' className="menu-link" onMouseOver={() => {this.changeInfoText('Willkommen!')}}>Home</Link>
                     </div>
                     <div className="link-container">
-                        <Link to='/about' className="menu-link">Über mich</Link>
+                        <NavLink to='/about' className="menu-link" activeClassName="selected">Über mich</NavLink>
                     </div>
                     <div className="link-container"> 
-                        <Link to='/projects' className="menu-link">Projekte</Link>
+                        <NavLink to='/projects' className="menu-link" activeClassName="selected">Projekte</NavLink>
                     </div>
                     <div className="link-container">
-                        <Link to='/contact' className="menu-link">Kontakt</Link>
+                        <NavLink to='/contact' className="menu-link" activeClassName="selected">Kontakt</NavLink>
                     </div>
                 </div>
                 <div className="footer">

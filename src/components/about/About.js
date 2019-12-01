@@ -5,11 +5,11 @@ import {
     Link
   } from "react-router-dom";
 import ITSkills from './it-skills/ITSkills';
-import { CSSTransition } from 'react-transition-group';
+import {Animated} from "react-animated-css";
 
 export function About() {
 
-    const [inProp, setInProp] = useState(false);
+    const [inProp, setInProp] = useState(true);
 
     return (
         <div className="container"> 
@@ -34,11 +34,11 @@ export function About() {
                     </div>
                 </div>
             </div>
-            <CSSTransition in={inProp} timeout={999999999} classNames="itSkills2">
-                <div className="transition-container">
-                   <ITSkills />
+            <Animated animationIn="fadeInDown" animationOut="fadeOutDown" animateOnMount={false} isVisible={inProp}>
+                <div>
+                <ITSkills closeMethod={setInProp}/>
                 </div>
-            </CSSTransition>
+            </Animated>
         </div>
         );
 }
