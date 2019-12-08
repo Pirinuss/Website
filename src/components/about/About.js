@@ -6,38 +6,63 @@ import {
   } from "react-router-dom";
 import ITSkills from './it-skills/ITSkills';
 import {Animated} from "react-animated-css";
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 export function About() {
 
-    const [inProp, setInProp] = useState(true);
+    function showElement(elementId) {
+        var element = document.getElementById(elementId);
+        element.classList.add("display");
+        setInProp(true);
+    }
+
+    const [inProp, setInProp] = useState(false);
 
     return (
         <div className="container"> 
             <div className="about">
                 <div className="about-container">
-                    <Link to='/about/facts'>
-                        <div className="box other-container">
-                            <div className="cell-header-container">
-                                <h1 className="cell-header">Fakten</h1>
-                            </div>
-                        </div>
-                    </Link>    
-                    <div className="box it-skills-container" onClick={() => setInProp(true)}>
+                    <div className="box">
+                        <Flippy flipOnClick={true} flipDirection="horizontal">
+                            <FrontSide>
+                                <div className="flip-card facts-front">
+                                    <div className="cell-header-container">
+                                        <h1 className="cell-header">Fakten</h1>
+                                    </div>
+                                </div>
+                            </FrontSide>
+                            <BackSide>
+                                <div className="flip-card back">
+                                    <h1>Fakten</h1>
+                                </div>
+                            </BackSide>
+                        </Flippy>
+                    </div>
+                    <div className="box it-skills-container" onClick={() => showElement("itskills")}>
                         <div className="cell-header-container">
                             <h1 className="cell-header">IT-Skills</h1>
                         </div>
                     </div>
-                    <div className="box sport-container" onClick={() => setInProp(false)}>
-                        <div className="cell-header-container">
-                            <h1 className="cell-header">Hobbies</h1>
-                        </div>
+                    <div className="box" >
+                        <Flippy flipOnClick={true} flipDirection="horizontal">
+                            <FrontSide>
+                                <div className="flip-card sport-front">
+                                    <div className="cell-header-container">
+                                        <h1 className="cell-header">Hobbies</h1>
+                                    </div>
+                                </div>
+                            </FrontSide>
+                            <BackSide>
+                                <div  className="flip-card back">
+                                    <h1>Hobbies</h1>
+                                </div>
+                            </BackSide>
+                        </Flippy>
                     </div>
                 </div>
             </div>
-            <Animated animationIn="fadeInDown" animationOut="fadeOutDown" animateOnMount={false} isVisible={inProp}>
-                <div>
+            <Animated animationIn="bounceInDown" animationOut="bounceOutUp" animateOnMount={false} isVisible={inProp}>
                 <ITSkills closeMethod={setInProp}/>
-                </div>
             </Animated>
         </div>
         );

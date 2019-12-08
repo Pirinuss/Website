@@ -15,9 +15,9 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="contact">
-                <BouncyDiv>
+                {/*<BouncyDiv>*/}
                     <div className="contact-container">
-                        <h1 className="test">Hier bin ich zu erreichen:</h1>
+                        <h1 className="text1">Hier bin ich zu erreichen:</h1>
                         <div className="contact-image-container">
                             <a href="mailto:marcwendelborn@web.de" target="_blank" rel="noopener noreferrer">
                                 <img className="contact-images mail" src={mailIcon} alt="Das Bild kann nicht dargestellt werden" />
@@ -29,8 +29,10 @@ class Contact extends React.Component {
                                 <img className="contact-images" src={linkedInIcon} alt="Das Bild kann nicht dargestellt werden" />
                             </a>    
                         </div>    
+                        <p className="text2">Die Website wird regelmäßig aktualisiert</p>
+                        <p className="text3">© Marc Wendelborn 2019</p>
                     </div>
-                </BouncyDiv>
+                {/*</BouncyDiv>*/}
             </div>
         );
     }

@@ -5,15 +5,23 @@
     text-align: center;
 }
 
+.text1 {
+    height: 20%;
+}
+
 .contact-container {
     display: inline-block;
     background-color: #1f3644;
-    width: 600px;
-    height: 300px;
+    width: 65%;
+    height: 50%;
     margin-top: 15%;
     border-radius: 20px;
     color: white;
     text-align: center;
+}
+
+.contact-image-container {
+    height: 45%;
 }
 
 .contact-images {
