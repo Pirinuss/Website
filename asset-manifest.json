@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.4555b8d0.chunk.css",
-    "main.js": "/Website/static/js/main.e7ed9515.chunk.js",
-    "main.js.map": "/Website/static/js/main.e7ed9515.chunk.js.map",
+    "main.css": "/Website/static/css/main.7acbaf26.chunk.css",
+    "main.js": "/Website/static/js/main.bc60ebf2.chunk.js",
+    "main.js.map": "/Website/static/js/main.bc60ebf2.chunk.js.map",
     "runtime-main.js": "/Website/static/js/runtime-main.0a00061a.js",
     "runtime-main.js.map": "/Website/static/js/runtime-main.0a00061a.js.map",
     "static/css/2.c0851dc3.chunk.css": "/Website/static/css/2.c0851dc3.chunk.css",
-    "static/js/2.956efa52.chunk.js": "/Website/static/js/2.956efa52.chunk.js",
-    "static/js/2.956efa52.chunk.js.map": "/Website/static/js/2.956efa52.chunk.js.map",
+    "static/js/2.d5c02ae6.chunk.js": "/Website/static/js/2.d5c02ae6.chunk.js",
+    "static/js/2.d5c02ae6.chunk.js.map": "/Website/static/js/2.d5c02ae6.chunk.js.map",
     "index.html": "/Website/index.html",
-    "precache-manifest.e147c420a74bad2a5d564715623bbb30.js": "/Website/precache-manifest.e147c420a74bad2a5d564715623bbb30.js",
+    "precache-manifest.b1f8c4f4cd1daab9d97155f02cd824a0.js": "/Website/precache-manifest.b1f8c4f4cd1daab9d97155f02cd824a0.js",
     "service-worker.js": "/Website/service-worker.js",
     "static/css/2.c0851dc3.chunk.css.map": "/Website/static/css/2.c0851dc3.chunk.css.map",
-    "static/css/main.4555b8d0.chunk.css.map": "/Website/static/css/main.4555b8d0.chunk.css.map",
+    "static/css/main.7acbaf26.chunk.css.map": "/Website/static/css/main.7acbaf26.chunk.css.map",
     "static/media/App.css": "/Website/static/media/Marc.9cb3b705.jpg",
     "static/media/PasswortManagerImage.png": "/Website/static/media/PasswortManagerImage.21dc50e4.png",
     "static/media/About.css": "/Website/static/media/handball.e6479be9.png",
     "static/media/WorkloadGeneratorImage.PNG": "/Website/static/media/WorkloadGeneratorImage.e933504d.PNG",
     "static/media/collapseIcon.png": "/Website/static/media/collapseIcon.2bb36232.png",
-    "static/media/githubIcon.png": "/Website/static/media/githubIcon.f5211378.png"
+    "static/media/githubIcon.png": "/Website/static/media/githubIcon.f5211378.png",
+    "static/media/qoods.PNG": "/Website/static/media/qoods.377aea20.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.0a00061a.js",
     "static/css/2.c0851dc3.chunk.css",
-    "static/js/2.956efa52.chunk.js",
-    "static/css/main.4555b8d0.chunk.css",
-    "static/js/main.e7ed9515.chunk.js"
+    "static/js/2.d5c02ae6.chunk.js",
+    "static/css/main.7acbaf26.chunk.css",
+    "static/js/main.bc60ebf2.chunk.js"
   ]
 }
