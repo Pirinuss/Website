@@ -34,6 +34,10 @@ function App() {
           </Switch> 
         </div> 
       </div>
+      <div className="disableMobile">
+        <h1>The mobile version of this website is coming soon!</h1>
+        <h1>The website is currently only available for screens with a maximum width of higher than 1024 pixels</h1>
+      </div>
     </Router>
   );
 }

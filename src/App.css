@@ -1,3 +1,15 @@
+@media (max-device-width: 1024px) { 
+  .App {
+    visibility: hidden;
+  }
+}
+
+@media (min-device-width: 1024px) { 
+  .App {
+    visibility: visible;
+  }
+}
+
 .App {
   float: left;
   position: absolute;

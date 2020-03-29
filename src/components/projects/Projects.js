@@ -5,6 +5,7 @@ import InfiniteCarousel from 'react-leaf-carousel';
 import WebsiteImage from './WebsiteImage.PNG';
 import WorkloadGeneratorImage from './WorkloadGeneratorImage.PNG';
 import PasswortManagerImage from './PasswortManagerImage.png';
+import QoodsImage from './qoods.PNG'
 import './Projects.css'
 import styled, { keyframes } from 'styled-components';
 import { zoomIn } from 'react-animations';
@@ -15,9 +16,10 @@ const BouncyDiv = styled.div`
   animation: 1s ${animation};
 `;
 
-const WebsiteContent = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
+const WebsiteContent = 'Als Entwickler kann ich meine eigene Website ja nicht einfach mit einem Tool erstellen - deswegen habe ich sie von Grund auf selbst entwickelt. Dadurch konnte ich das Zusammenspiel von HTML, Javascript und CSS sowie den Umgang mit verschiedenen Javascript Frameworks wie React und Node üben. Aktuell ist die Ansicht der Website für mobile Geräte zwar noch deaktiviert, allerdings ist eine mobile Version bereits in Arbeit.';
 const WorkloadGeneratorContent = 'Meine Bachelorarbeit! Mit diesem in Java geschriebenem Tool können spielend leicht HTTP- und FTP-Request erzeugt werden. Somit eignet sich das Tool hervorragend, um Lasttests für Netzwerkapplikationen aufzusetzen. Darüber hinaus können auch mit Hilfe von speziellen Requests, die auf dem BFT-SMaRt Protokoll aufbauen, sicherheitskritische, verteile Systeme getestet werden.';
-const PasswordGeneratorContent = 'Mit diesem Projekt habe ich erste Erfahrungen im Designen von Nutzeroberflächen gesammelt. Dieses einfache Tool ermöglicht das anlegen von Passwortkategorien, auf die einzelne Passwörter aufgeteilt und abgespeichert werden können. ';
+const PasswordGeneratorContent = 'Auch wenn noch lange nicht fertig bietet die App zumindest die wichtigsten Funktionen eines Passwortmanagers. Passwörter anlegen, kategorisieren und somit stets das benötigte Passwort schnell zur Stelle zu haben. Die Passwörter werden mit eines Hash-Funktion verschlüsselt und auf der Festplatte gespeichert. Die App habe ich mit Java Swing entwickelt und damit erste praktische Erfahrung im Designen von Nutzeroberflächen erhalten. Am Design muss eventuell noch geschraubt werden, aber das wird sicher noch… ;) ';
+const QoodsContent = 'Im Rahmen des Hackathons der Bundesregierung zur Corona-Krise entwickelte ich mit einem interdisziplären Team aus Gesellschaftsforschern und Entwicklern eine Slotverwaltungssystem für Supermärkte. Ziel dieser App ist es, die Besucherzahlen von Supermärkten zu steuern und somit zu verhindern, dass sich zu viele Leute zeitgleich im Supermarkt aufhalten bzw. vor dem Supermarkt Schlange stehen. Dadurch soll die Gefahr einer weiteren Ausbreitung des Virus durch einkaufende Menschen reduziert werden.'
 
 class Projects extends React.Component {
     render() {
@@ -40,6 +42,7 @@ class Projects extends React.Component {
                         slidesToShow={1}
                         scrollOnDevice={true}>
                         <ProjectWelcomePage />
+                        <ProjectItem title="QOODS" content={QoodsContent} image={QoodsImage}></ProjectItem>
                         <ProjectItem title="Website" content={WebsiteContent} image={WebsiteImage}></ProjectItem>
                         <ProjectItem title="Passwort Manager" content={PasswordGeneratorContent} image={PasswortManagerImage} imageClass='website-image'></ProjectItem>
                         <ProjectItem title="Workload Generator" content={WorkloadGeneratorContent} image={WorkloadGeneratorImage}></ProjectItem>

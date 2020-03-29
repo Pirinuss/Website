@@ -1,7 +1,6 @@
 .about {
     width: 100%;
     height: 100%;
-    position: absolute;
 }
 
 .container {
@@ -10,19 +9,12 @@
     width: 100%;
 }
 
-.secondLayer {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
 .about-container {
     width: 90%;
     height: 75%;
     margin: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    border-radius: 20px;
 }
 
 .box {
@@ -37,7 +29,6 @@
 }
 
 .box:hover {
-    color: cadetblue;
     cursor: pointer;
 }
 
@@ -45,6 +36,11 @@
     display: table-cell;
     font-size: 30px;
     padding-top: 5%;
+}
+
+.cell-header:hover {
+    color: cadetblue;
+    cursor: pointer;
 }
 
 .cell-header-container {
@@ -65,7 +61,7 @@
     background-size: cover;
 }
 
-.it-skills-container {
+.it-skills-front {
     background-image: url('./WebsiteImage.PNG');
     background-size: 100%;
 }

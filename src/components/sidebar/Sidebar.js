@@ -42,9 +42,6 @@ class Sidebar extends React.Component {
                 <div className="footer">
                     <div className="deco-bar bottom"></div>
                 </div>
-                <div className="copyright">
-                    <p>Copyright @2019</p>
-                </div>
             </div>    
         );
     }
