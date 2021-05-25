@@ -1,0 +1,33 @@
+@media (max-device-width: 1024px) { 
+  .App {
+    visibility: hidden;
+  }
+}
+
+@media (min-device-width: 1024px) { 
+  .App {
+    visibility: visible;
+  }
+}
+
+.App {
+  float: left;
+  position: absolute;
+  top: 0px; /* Header Height */
+  bottom: 0px; /* Footer Height */
+  width: 100%;
+  overflow: hidden;
+  background-image: url('./components/mainPanel/Marc.jpg');
+  background-size:cover;
+  background-position: center;
+}
+
+.mainPanel {
+  float: left;
+  width: 75%;
+  height: 100%;
+  
+  background-image: url('./components/mainPanel/Marc.jpg');
+  background-size:cover;
+  background-position: center;
+}

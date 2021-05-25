@@ -1,0 +1,72 @@
+
+.itskills {
+    width: 100%;
+    height: 100%;
+    background-color: #1f3644;
+    text-align: left;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.itskills:hover {
+    color: white;
+}
+
+.itskills-header {
+    height: 10%;
+    width: 100%;
+    position: relative;
+    margin-left: 3%;
+}
+
+.content-header {
+    margin-top: 3%;
+    margin-left: 5px;
+    font-size: 2.5vh;
+}
+
+.content {
+    position: absolute;
+}
+
+.categorie {
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+ul {
+    margin: 0%;
+}
+
+.basics {
+    margin-left: 5%;
+    border-left: 5px solid yellow;
+    font-size: 2vh;
+}
+
+.webentwicklung {
+    margin-left: 5%;
+    border-left: 5px solid green;
+    font-size: 2vh;
+}
+
+.projektmanagement {
+    margin-left: 5%;
+    border-left: 5px solid purple;
+    font-size: 2vh;
+}
+
+.itskills-footer {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.backIcon {
+    height: 50px;
+    width: 50px;
+}
+
+.backIcon:hover {
+    cursor: pointer;
+}
